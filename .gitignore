@@ -1,0 +1,29 @@
+# Environment & Secrets
+.env
+.env.local
+
+# Virtual Environment
+.venv/
+.venv_new/
+env/
+venv/
+
+# Session & Token Files
+*.session
+*.tokens
+tokens/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Storage & Data
+storage/
+data/*.json
+!data/.gitkeep
+
+# Logs
+*.log
+logs/
